@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.main-section{
+    margin: 0 400px;
+    box-shadow: 4px 5px 30px 20px rgba(64,87,191,0.1);
+}
+.header{
+  
+    
+}
+.header-container{
+    background-image: url(images/banner/banner1.png);
+   background-repeat: no-repeat;
+    padding: 300px 400px; 
+}
+.header-title{
+ margin-left: 150px;
+ margin-top: -100px;
+ font-size: 30px;
+ font-weight: 800;
+
+}
+.header-description{
+    margin-left: 150px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #757575;
+    margin-top: 10px;
+}
+.btn-primary{
+    height: 50px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(255, 73, 71);
+    margin-left: 200px;
+    border: 0;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+/*about*/
+   .about-container{
+    display: flex;
+   }
+   .about-img{
+    height: 500px;
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 100px;
+   }
+   .about-info{
+    margin-top: 300px;
+    margin-right: 200px;
+   }
+    ul{
+        margin-left: 150px;
+    }
+    .about-info ul li {
+         list-style: none;
+         font-size: 12px;
+         font-weight: 300;
+         margin-top: 20px;
+         line-height: 5px;
+         color: #757575;
+    }
+    .about-info ul li span{
+        color: green;
+        margin-right: 5px;
+    }
+    /*my plans*/
+    .plans-section{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .plans-container{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-bottom: 50px;
+ }
+  .plan-sec-title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .plan-sec img{
+    height: 50px;
+    width: 50px;
+  }
+ .plan-title{
+    font-weight: 900; 
+    font-size: 15px;
+    margin-top: 15px;
+ }
+ .plan-des{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #757575;
+ }
+ /*positive mind*/
+ .mind-container{
+    background-image: url(images/watch.png);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 70px 70px ;
+   /* margin-bottom: 100px;*/
+    border-radius: 5px;
+    z-index: -1;
+ }
+ .bgc-img{
+   height: auto;
+    width: 695px;
+    margin-left: 200px;
+   position: relative;
+   margin-top: -180px;
+   z-index: 1;
+ }
+
+    
+   
+ 
+ 
+
+ 
+      
+    
