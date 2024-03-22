@@ -110,19 +110,64 @@ img{
     background-image: url(images/watch.png);
     margin-left: 200px;
     margin-right: 200px;
-    padding: 70px 70px ;
+    padding: 50px 50px ;
    /* margin-bottom: 100px;*/
     border-radius: 5px;
-    z-index: -1;
+    z-index: 1;
  }
  .bgc-img{
    height: auto;
-    width: 695px;
+    width: 750px;
     margin-left: 200px;
    position: relative;
-   margin-top: -180px;
+   margin-top: -200px;
    z-index: 1;
  }
+ .mind-title{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.mind-btn{
+    height: 50px;
+    padding: 20px;
+    color: rgb(255, 73, 71);
+    background-color: white;
+   border: 0;
+     border-radius: 5px;
+    position: relative;
+   font-size: 13px;
+   font-weight: 800;
+}
+/*footer*/
+.footer-section{
+    margin-top: 50px;
+}
+.footer-container{
+    display: flex;
+    background-color: black;
+    padding: 70px;
+    gap: 200px;
+}
+.footer-left{
+    margin-left: 100px;
+}
+.footer-right{
+    margin-right: 100px;
+}
+.footer-right-title{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer-right input{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
 
     
    
